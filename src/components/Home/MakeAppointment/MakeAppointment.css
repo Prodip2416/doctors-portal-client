@@ -1,0 +1,12 @@
+.appointment{
+    margin-top:100px !important;
+    height: 350px;
+    position: relative;
+    background-color: #3F475A;
+}
+.appointment img{
+    margin-top:-25px;
+    margin-left:100px;
+    height: 300px;
+    transform: scale(1.5);
+}
