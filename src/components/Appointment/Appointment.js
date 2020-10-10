@@ -15,7 +15,7 @@ const Appointment = () => {
         <div>
             <Navbar />
             <AppointmentHeader handleDateChange={handleDateChange} />
-            <AppointmentBook/>
+            <AppointmentBook date={date}/>
         </div>
     );
 };
