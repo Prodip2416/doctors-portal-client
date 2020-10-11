@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 import AllPatients from './components/AllPatients/AllPatients';
 import Appointment from './components/Appointment/Appointment';
+import AddDoctor from './components/Dashboard/AddDoctor/AddDoctor';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login/login';
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/dashboard/allPatients">
             <AllPatients/>
+          </Route>
+          <Route path="/doctor/add">
+            <AddDoctor/>
           </Route>
           <Route path="/login">
           <Login/>
